@@ -1,5 +1,5 @@
 window.onload = function() {
-	var url = "";
+	var url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS5cA7AWBwSFHvwu71M5W46l7TXQDaopy9AVAsqHosRfDLfvyJQp5OFQcmWkhebGRWqbFqon-px9sKv/pub?output=csv";
 	$.ajax({
 		url: url
 		,success: function(data) {
