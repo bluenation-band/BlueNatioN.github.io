@@ -11,12 +11,12 @@ window.onload = function() {
 					htmls.push(`
 								<div class="col-md-2">
 									<div class="text-center">
-									<h6>${l.date}</h6>
+									<h6 class="text-dark">${l.date}</h6>
 										<p class="text-muted">Open ${l.open} Start ${l.start}</p>
 									</div>
 								</div>
 								<div class="col-md-10">
-									<h5>${l.name}</h5>
+									<h5 class="text-dark">${l.name}</h5>
 									<p class="text-muted">@${l.place}<br>${l.act}<br>${l.price}<br></p>
 									<br> <br>
 								</div>
