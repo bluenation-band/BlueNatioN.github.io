@@ -2,23 +2,24 @@ body {
 }
 
 header.jumbotron {
-    height: 610px;
-/*    background: url("../img/header-bg.jpg?v=20180810") center 0 no-repeat; */
+    background: url("../img/header-bg.jpg?v=20180810") center 0 no-repeat;
     background-size: cover;
 }
 h1, h2, h4{
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
+  color: #0958e6;
 }
 header h1, header h2{
   position: relative;
   letter-spacing: 3px;
   opacity: 0.9;
   text-transform: none;
-  top: 200px;
+  top: 320px;
 }
 header h1 {
   font-size: 120px;
+  color: #fff;
 }
 header h2 {
   font-size: 40px;
@@ -26,7 +27,7 @@ header h2 {
 @media (max-width: 767px){
   header.jumbotron {
     height: 250px;
-/*    background: url("../img/header-bg.jpg?v=20180810") center 0 no-repeat; */
+    background: url("../img/header-bg.jpg?v=20180810") center 0 no-repeat;
     background-size: cover;
     margin-top: 60px;
   }
@@ -45,7 +46,7 @@ header h2 {
   }
 }
 .social-buttons-top {
-  padding-top: 200px;
+  padding-top: 320px;
 }
 @media (max-width: 767px){
   .social-buttons-top {
@@ -60,6 +61,7 @@ header h2 {
   margin: 10px 2px;
   height: 65px;
   width: 65px;
+  background: #0958e6;
 }
 @media (max-width: 767px){
   .social-buttons-top .fa {
@@ -73,32 +75,26 @@ header h2 {
 }
 
 .fa-facebook {
-  background: #3B5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
   color: white;
 }
 
 .fa-google {
-  background: #dd4b39;
   color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
   color: white;
 }
 
 .fa-youtube-play {
-  background: #bb0000;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
   color: white;
 }
 section {
@@ -108,7 +104,7 @@ iframe {
 	margin: auto !important;
 }
 
-#mainNav, #mainNav.navbar-shrink {
+#mainNav.navbar-shrink {
     background-color: #fff;
 }
 #mainNav .navbar-toggler {
