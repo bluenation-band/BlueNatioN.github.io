@@ -17,7 +17,7 @@ window.onload = function() {
 								</div>
 								<div class="col-md-10">
 									<h5>${l.name}</h5>
-									<p class="text-muted">@${l.place}<br>${l.act}<br>${l.price}<br><a href="${l.url}">more info</a></p>
+									<p class="text-muted">@${l.place}<br>${l.act}<br>${l.price}<br></p>
 									<br> <br>
 								</div>
 						`

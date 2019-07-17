@@ -74,26 +74,11 @@ header h2 {
     opacity: 0.7;
 }
 
-.fa-facebook {
-  color: white;
-}
-
-.fa-twitter {
-  color: white;
-}
-
-.fa-google {
-  color: white;
-}
-
-.fa-linkedin {
-  color: white;
-}
-
-.fa-youtube-play {
-  color: white;
-}
-
+.fa-facebook,
+.fa-twitter,
+.fa-google,
+.fa-linkedin,
+.fa-youtube-play,
 .fa-instagram {
   color: white;
 }
